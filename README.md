@@ -1,4 +1,9 @@
+##### Bagus Nugraha #####
+##### 1313617002 #####
+##### Sistem Pakar Semester 112 #####
+##### Assignment 1 Task 2 3D Rotation Transformations #####
 
+laporan ini disusun untuk memenuhi *task 2 asssignment1*, diminta untuk tranformasi rotasi dalam bidang 3 dimensi menggunakan beberapa metode seperti Axis/angle dan Quaternions. saya menulis kode di jupyter notebook dengan python 3.
 
 ```python
 #https://stackoverflow.com/questions/47311632/jupyter-how-to-rotate-3d-graph
@@ -40,6 +45,8 @@ ax.add_collection3d(Poly3DCollection(verts,
 
 plt.show()
 ```
+
+![Limas](img3Dtransform/limas.png)
 
 
 ##### Axis/angle #####
@@ -124,6 +131,7 @@ ax.add_collection3d(Poly3DCollection(verts,
 
 plt.show()
 ```
+![Limas1](img3Dtransform/limas_rodri_n_topi1.png)
 
 Yang terjadi adalah rotasi hanya bergerak sedikit, tidak seperti apa yang saya bayangkan 
 
@@ -151,6 +159,8 @@ ax.add_collection3d(Poly3DCollection(verts,
 
 plt.show()
 ```
+
+![Limas2](img3Dtransform/limas_rodri_n_topi2.png)
 
 Jika magnitudo n̂ lebih dari 1 maka yang terjadi adalah bentuk limas akan menjadi pipih
 
@@ -182,12 +192,10 @@ ax.add_collection3d(Poly3DCollection(verts,
 
 plt.show()
 ```
+![Limas3](img3Dtransform/limas_rodri_n_topi.png)
 
-```python
 Dengan magnitudo = 1, bentuk dan ukuran limas tetap seperti awal tidak ada yang berubah dan 
 rotasi nya menjadi sesuai dengan besar theta
-```
-
 
 ##### Unit quaternions #####
 Quaternions dapat diturunkan dari representasi axis/angle
@@ -251,3 +259,5 @@ ax.add_collection3d(Poly3DCollection(verts,
 
 plt.show()
 ```
+
+![Limas](img3Dtransform/limas_quarternions.png)
