@@ -189,12 +189,12 @@ rotasi nya menjadi sesuai dengan besar theta
 ```
 
 
-```python
 ##### Unit quaternions #####
 Quaternions dapat diturunkan dari representasi axis/angle
 q = (v,w) = ((sin(θ/2)*n̂), cos(θ/2), dimana  nˆ dan θ sumbu dan sudut rotasi. menggunakan identitas trigonometri sinθ = 2sin(θ/2)cos(θ/2)
 dan (1-cosθ) = 2sin^2(θ/2)
 formula rodriguez dapat kita konversi menjadi:
+
 ```
 R(n̂, θ) = I + sin(θ)[n^]x + (1-cos(θ))([n^]x)^2
          = I + 2w[v]x + 2([v]x)^2
@@ -204,8 +204,6 @@ matriks [v]x yang berukuran 3x3
         [-y,  x,  0]]
 matriks ([v]x)^2 adalah matriks [v]x yang berukuran 3x3 yang dikali matriks dengan dirinya sendiri
 ```
-```
-
 
 ```python
 def quaternions(mat, v, w):
