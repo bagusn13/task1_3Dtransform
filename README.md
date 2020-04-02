@@ -52,7 +52,7 @@ plt.show()
 ##### Axis/angle #####
 Rotasi dapat direpresentasikan dengan sumbu rotasi n^ dan sudut θ
 Untuk menggunakan metode ini sudah pasti membutuhkan n^ dan θ, dimana 
-n^ merupakan vektor-3 acak yang terdiri dari nx, ny dan nz dan θ 
+n^ adalah vektor normal yang tegak lurus terhadap bidang dan merupakan vektor-3 acak yang terdiri dari nx, ny dan nz dan θ 
 sebagai besar sudut rotasi dalam satuan radian. vektor n^ merupakan
 titik di ruang 3 dimensi. jadi vektor n^ adalah vektor yang di mulai 
 dari 0, 0, 0 yang mencuat menuju nx, ny, nz.
